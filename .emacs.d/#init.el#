@@ -12,9 +12,6 @@
 ;; load the files in emacs home
 (add-to-list 'load-path emacs-home)
 
-;; copy
-(setq x-select-enable-clipboard t)
-
 ;;; autocomplete
 (vendor-require 'auto-complete-config "auto-complete")
 (add-to-list 'ac-dictionary-directories (concat emacs-home "dict"))
@@ -31,12 +28,10 @@
 ;; JavaScript
 (require 'init-js)
 
+
 ;; YAML
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
-
-;; HAML
-(vendor-require 'haml-mode)
 
 
 (require 'uniquify)
