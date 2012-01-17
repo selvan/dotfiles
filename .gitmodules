@@ -31,8 +31,8 @@
 [submodule ".emacs.d/vendor/yari"]
 	path = .emacs.d/vendor/yari
 	url = https://github.com/hron/yari.el.git
-[submodule "/home/bitstat1/code/dotfiles/.emacs.d/vendor/monky"]
-	path = /home/bitstat1/code/dotfiles/.emacs.d/vendor/monky
+[submodule ".emacs.d/vendor/monky"]
+	path = .emacs.d/vendor/monky
 	url = https://github.com/ananthakumaran/monky.git
 [submodule ".emacs.d/vendor/haml-mode"]
 	path = .emacs.d/vendor/haml-mode
