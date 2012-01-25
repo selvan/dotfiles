@@ -1,3 +1,8 @@
+;; General setup
+(setq inhibit-splash-screen t)
+(setq transient-mark-mode t)
+
+
 ;; path constants
 (defvar emacs-home "~/code/dotfiles/.emacs.d/")
 (setq exec-path (cons "~/code/dotfiles/bin/" exec-path))
