@@ -1,0 +1,12 @@
+.bundle
+.idea/
+db/*.sqlite3
+tmp/
+log/*.log
+public/assets/
+resources/apache-jmeter/**/*.jtl
+resources/apache-jmeter/**/*.log
+resources/apache-jmeter/lib/ext/*.png
+*~
+.Rhistory
+
